@@ -44,7 +44,6 @@ function watch(){
       gulp.watch(paths.html.src,devHtml)
 }
 
-
 let dev = gulp.series(gulp.parallel( useconnect , watch ));
 
 module.exports  = dev; 

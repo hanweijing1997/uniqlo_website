@@ -1,0 +1,125 @@
+.banner_con {
+	width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 52px;
+}
+
+.banner_one {
+	position: relative;
+	width: 1280px;
+	background: #fe0000;
+	height: 50px;
+}
+.banner_three {
+	position: relative;
+	width: 1280px;
+	/* background: #fe0000; */
+	height: 580px;
+	margin-bottom: 52px;
+}
+.banner_four{
+	width: 1280px;
+}
+
+.container_one {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1200px;
+	height: 50px;
+	position: relative;
+}
+.container_three{
+	overflow: hidden;
+	margin: 10px auto;
+	width: 1280px;
+	height: 590px;
+	position: relative;
+}
+
+.wrapper_one_list,
+.wrapper_three_list{
+	position: absolute;
+	z-index: 9;
+}
+
+.container-slide .wrapper_one_list,
+.container-slide .wrapper_three_list{
+	display: flex;
+}
+
+.button-next,
+.button-prev {
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	z-index: 999;
+}
+.button-next {
+	background: #fe0000 url(https://upload-images.jianshu.io/upload_images/18462345-6215697a0508732e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top:0;
+	right: 0;
+}
+.button-prev {
+	background:#fe0000 url(https://upload-images.jianshu.io/upload_images/18462345-0a4fcbfa334c8bc3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top:0;
+	left: 0;
+}
+.button-next-t,
+.button-prev-t{
+	width: 50px;
+	height: 100%;
+	position: absolute;
+}
+.button-next-t{
+	background: url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png);
+	background-size: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	right: -50px;
+}
+.button-prev-t {
+	background: url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png);
+	background-size: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	left: -50px;
+}
+.pagination {
+	position: absolute;
+	text-align: center;
+	-webkit-transition: .3s opacity;
+	-o-transition: .3s opacity;
+	transition: .3s opacity;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 10;
+}
+
+.pagination-bullets {
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+}
+
+.pagination-bullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	margin-left: 12px;
+	border-radius: 100%;
+	background: rgba(209, 209, 209);
+	opacity: .2;
+}
+
+.pagination-bullet-active {
+	opacity: 1;
+	background: #3C3C3C;
+}

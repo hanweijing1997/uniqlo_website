@@ -1,0 +1,91 @@
+.hg{
+	position: relative;
+    width: 1280px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+	margin-bottom: 28px;
+}
+.hg:after{
+	content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.hg li{
+	position: relative;
+	float: left;
+    line-height: 50px;
+    text-align: center;
+}
+.hg li a{
+	color: #000;
+	font-weight: bolder;
+	position: relative;
+    text-decoration: none;
+    font-size: 14px;
+}
+.hg .left_hg{
+	float: left;
+    width: 595px;
+    background: #fff;
+}
+.hg_woman{
+	width: 116px;
+}
+.hg_man{
+	width: 97px;
+}
+.hg_kid{
+	width: 96px;
+}
+.hg_baby{
+	width: 140px;
+}
+.hg .hg_woman:after,
+.hg .hg_man:after,
+.hg .hg_kid:after{
+	content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    width: 0px;
+    height: 20px;
+    border-left: 1px dotted #000;
+}
+.hg .right_hg{
+	float: right;
+    background: #a1a1a1;
+    width: 685px;
+}
+.hg .right_hg li a{
+	color: #fff;
+}
+.hg_info , .hg_about , .hg_shoplist{
+	width: 99px;
+}
+.hg_guide , .hg_paper{
+	width: 129px;
+}
+.hg_announce{
+	width: 130px;
+}
+.hg_shoplist{
+	background: #666666;
+}
+.hg_paper{
+	background: #3c3c3c;
+}
+.hg_info a:after, 
+.hg_about a:after, 
+.hg_guide a:after{
+	content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -22px;
+    width: 0px;
+    height: 20px;
+    border-left: 1px dotted #fff;
+}

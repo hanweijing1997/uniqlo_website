@@ -1,0 +1,67 @@
+{
+	"w_zxsj" : {
+		"datalist" : [
+			{
+				"dataid" : 422160,
+				"pcode" : "u0000000010344",
+				"cate" : "男装/女装 ",
+				"title" : "(UT) ONE PIECE 印花T恤(短袖) 422160",
+				"min-size" : "XS",
+				"max-size" : "XXXXL",
+				"origin-price" : 79,
+				"now-price" : 79,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009873/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+					"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009873/main/first/561/1.jpg",
+					"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009873/main/first/1000/1.jpg"
+					}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000009873/sku/40/COL09.jpg"
+				],
+				"sizelist" : [
+					"160/76A/XS",
+					"165/84A/S",
+					"170/92A/M",
+					"175/100A/L"
+				]
+			},
+			{
+				"dataid" : 422311,
+				"pcode" : "u0000000010344",
+				"cate" : "女装 ",
+				"title" : "(UT) Keith Haring 运动衫(长袖) 422311",
+				"min-size" : "XS",
+				"max-size" : "XXXL",
+				"origin-price" : 149,
+				"now-price" : 149,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010344/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010344/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010344/main/first/1000/1.jpg"
+					},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010344/main/other1/480/2.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010344/main/other1/1000/2.jpg"
+					}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000010344/sku/40/COL02.jpg"
+				],
+				"sizelist" : [
+					"150/76A/XS",
+					"155/80A/S",
+					"160/84A/M",
+					"160/88A/L",
+					"165/92A/XL",
+					"170/100B/XXL",
+					"175/108C/XXXL"
+				]
+			}
+
+			
+		]
+	}
+}

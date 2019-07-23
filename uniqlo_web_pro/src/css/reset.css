@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,td,th,fieldset.legend,option,textarea,button,hr,input,h1,h2,h3,h4,h5,h6,ol,ul,dd,dt,dl{
+	margin:0;
+	padding:0;
+}
+li{list-style:none;}
+i,em{font-style:normal;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+img{border:none;display:block;}
+input{outline:none;}
+table{border-collapse:collapse;}
+a{text-decoration:none;}
+*{
+	box-sizing: border-box;
+}
