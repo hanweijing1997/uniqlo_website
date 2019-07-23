@@ -13,6 +13,7 @@ define([
                   this.res = "";
                   let url = "";
 
+                 
                   switch(type){
                         case "women" : 
                               url = "../data/women.json" ;

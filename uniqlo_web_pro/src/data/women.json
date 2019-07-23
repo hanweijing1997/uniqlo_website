@@ -1,10 +1,10 @@
 {
-	"w_zxsj" : {
+	"zxsj" : {
 		"datalist" : [
 			{
 				"dataid" : 422160,
 				"pcode" : "u0000000010344",
-				"cate" : "男装/女装 ",
+				"cate" : "男装/女装",
 				"title" : "(UT) ONE PIECE 印花T恤(短袖) 422160",
 				"min-size" : "XS",
 				"max-size" : "XXXXL",
@@ -30,7 +30,7 @@
 			{
 				"dataid" : 422311,
 				"pcode" : "u0000000010344",
-				"cate" : "女装 ",
+				"cate" : "女装",
 				"title" : "(UT) Keith Haring 运动衫(长袖) 422311",
 				"min-size" : "XS",
 				"max-size" : "XXXL",
@@ -60,7 +60,99 @@
 					"175/108C/XXXL"
 				]
 			}
-
+			
+		]
+	},
+	"xsth" : {
+		"datalist" : [
+			{
+				"dataid" : 419897,
+				"pcode" : "u0000000009210",
+				"cate" : "女装 ",
+				"title" : "棉质连衣裙(带胸垫)(七分袖) 419897",
+				"min-size" : "XS",
+				"max-size" : "XXXL",
+				"origin-price" : 149,
+				"now-price" : 99,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other3/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other3/1000/3.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other4/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other4/1000/3.jpg"
+						}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000009210/sku/40/COL08.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009210/sku/40/COL12.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009210/sku/40/COL30.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009210/sku/40/COL32.jpg"
+				],
+				"sizelist" : [
+					"150/80/XS",
+					"155/85/S",
+					"160/90/M",
+					"165/95/S",
+					"170/92A/L",
+					"175/100/XL",
+					"175/105/XXL",
+					"180/110/XXXL"
+				]
+			},
+			{
+				"dataid" : 420345,
+				"pcode" : "u0000000009541",
+				"cate" : "女装 ",
+				"title" : "EZY九分裤 420345",
+				"min-size" : "XS",
+				"max-size" : "XXXL",
+				"origin-price" : 249,
+				"now-price" : 199,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/other3/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/other3/1000/3.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/other4/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009541/main/other4/1000/3.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000009541/sku/40/COL06.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000009541/sku/40/COL08.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000009541/sku/40/COL32.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000009541/sku/40/COL69.jpg"
+			     ],
+				"sizelist" : [
+					"155/58A/XS",
+					"155/62A/S",
+					"160/66A/M",
+					"160/70A/L",
+					"165/78A/XL",
+					"170/82A/XXL"
+				]
+			}
 			
 		]
 	}

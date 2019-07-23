@@ -211,7 +211,9 @@
                             }
                       })
                       require(["../scripts/index.js","../scripts/goodslist.js"],function(index,goodslist){
-					goodslist.init("women","w_zxsj");
+					let hash = location.hash;
+					let data = hash.split("#")[1].split("-");
+					goodslist.init(data[0],data[1]);
 			    });
             </script>
 	</body>

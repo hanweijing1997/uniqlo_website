@@ -5,9 +5,11 @@ define([
 ], function($,goodslist,loaddata) {
       'use strict';
       
+      let data = {};
       let gotop_btn = $("#go_top");
       let top_nav = $(".header_nav_con");
       let little_logo = $(".logo");
+      let saleNav = $(".slae_nav");
 
       $(window).on( "scroll" ,function(){
             let scrolltop = $("body,html").scrollTop();
@@ -31,7 +33,16 @@ define([
                   "scrollTop":0
             },500);
       })
-     
+      saleNav.on("click" , function(evt){
+            let e = evt || window.event ;
+            let type = $(e.target).attr("data");
+            let attr = $(e.target).parent().attr("data");
+            data = {
+                  type,
+                  attr
+            }
+            location.href = "./html/goodslist.html?#"+ type+"-"+attr;
+      })
       
-     
+     return data;
 });
