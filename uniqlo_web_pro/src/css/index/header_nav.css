@@ -45,7 +45,10 @@ body{
 	display: none;
 	width: 32px;
 	height: 32px;
-	background: url(https://upload-images.jianshu.io/upload_images/18462345-c367b6dc0a448963.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) no-repeat center;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	background: red url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIW…4k4+FdzgmOJmtyuaW0p19sbSV89FHV/atByJX4ahwE/HcAg7ugug2RBq8AAAAASUVORK5CYII=) no-repeat center;
 	background-size: cover;
 	float: left;
 	margin-top: 3px;

@@ -138,9 +138,9 @@ define(["jquery"],function($){
                                           <p>颜色 : 54 绿色</p>
                                     </div>
                                     <div class="sc_con_detail">
-                                          <p class="price_bold">￥${item["origin-price"]}.00</p>
+                                          <p class="price_bold">￥${item["now-price"]}.00</p>
                                           <p>初上市价格 </p>
-                                          <p>￥${item["now-price"]}.00</p>
+                                          <p>￥${item["origin-price"]}.00</p>
                                     </div>
                                     <div class="sc_con_count">
                                           <span> <i class="iconfont" style="float:left;margin-left:-3px">&#xe723;</i> ${item.count}  <i class="iconfont" style="float:right;margin-right:-3px;">&#xe71e;</i></span>

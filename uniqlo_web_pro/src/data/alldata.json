@@ -80,11 +80,11 @@
                                     "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other2/1000/3.jpg"
                                     },
                               "cover3" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other3/480/3.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other3/1000/3.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other3/480/4.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other3/1000/4.jpg"
                                     },
                               "cover4" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other4/480/3.jpg",
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other4/480/5.jpg",
                                     "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006329/main/other4/1000/3.jpg"
                                     }
                         },
@@ -121,12 +121,12 @@
                                     "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other2/1000/3.jpg"
                                     },
                               "cover3" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other3/480/3.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other3/1000/3.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other3/480/4.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other3/1000/4.jpg"
                                     },
                               "cover4" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other4/480/3.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other4/1000/3.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other4/480/5.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009373/main/other4/1000/5.jpg"
                                     }
                         },
                         "colorList" : [
@@ -164,12 +164,12 @@
                                     "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other2/1000/3.jpg"
                                     },
                               "cover3" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other3/480/3.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other3/1000/3.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other3/480/4.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other3/1000/4.jpg"
                                     },
                               "cover4" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other4/480/3.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other4/1000/3.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other4/480/5.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009210/main/other4/1000/5.jpg"
                                     }
                         },
                         "colorList" : [
@@ -231,7 +231,259 @@
                               "165/78A/XL",
                               "170/82A/XXL"
                         ]
-                  }
+                  },
+                  {
+				"dataid" : 420817,
+				"pcode" : "u0000000010477",
+				"cate" : "男装",
+				"title" : "Keith Haring UT(短袖) 420817",
+				"min-size" : "XS",
+				"max-size" : "XXXXL",
+				"origin-price" : 99,
+				"now-price" : 99,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/first/561/1.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/first/1000/1.jpg"
+                                    },
+                              "cover2" :     {
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other1/480/2.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other1/1000/2.jpg"
+                                    },
+                              "cover3" :       {
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other3/480/4.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other3/1000/4.jpg"
+                                    }
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000010477/sku/40/COL65.jpg"
+				],
+				"sizelist" : [
+					"160/76A/XS",
+					"165/84A/S",
+					"170/92A/M",
+                              "175/100A/L",
+                              "180/108B/XL",
+                              "185/112C/XXL",
+                              "185/120C/XXXL"
+				]
+			},
+			{
+				"dataid" : 422063,
+				"pcode" : "u0000000010473",
+				"cate" : "男装",
+				"title" : " Keith Haring运动衫(长袖) 422063",
+				"min-size" : "XS",
+				"max-size" : "XXXL",
+				"origin-price" : 199,
+				"now-price" : 199,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/first/1000/1.jpg"
+					},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other1/480/2.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other1/1000/2.jpg"
+                              },
+                              "cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other3/1000/4.jpg"
+					},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other4/1000/5.jpg"
+					}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL59.jpg"
+				],
+				"sizelist" : [
+					"160/76A/XS",
+					"165/84A/S",
+					"170/92A/M",
+                              "175/100A/L",
+                              "180/108B/XL",
+                              "185/112C/XXL",
+                              "185/120C/XXXL"
+				]
+                  },
+                  {
+				"dataid" : 418928,
+				"pcode" : "u0000000009138",
+				"cate" : "男装",
+				"title" : " EZY九分裤 418928",
+				"min-size" : "XS",
+				"max-size" : "XXXXL",
+				"origin-price" : 249,
+				"now-price" : 199,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009138/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000009138/sku/40/COL06.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009138/sku/40/COL09.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009138/sku/40/COL69.jpg"
+				],
+				"sizelist" : [
+					"160/76A/XS",
+					"165/84A/S",
+					"170/92A/M",
+                              "175/100A/L",
+                              "180/108B/XL",
+                              "185/112C/XXL",
+                              "185/120C/XXXL",
+                              "185/120C/XXXXL"
+				]
+			},
+			{
+				"dataid" : 413175,
+				"pcode" : "u0000000006133",
+				"cate" : "男装 ",
+				"title" : " 全棉中裤 413175",
+				"min-size" : "XS",
+				"max-size" : "XXXXL",
+				"origin-price" : 199,
+				"now-price" : 129,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006133/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000006133/sku/40/COL06.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006133/sku/40/COL09.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006133/sku/40/COL23.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006133/sku/40/COL32.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006133/sku/40/COL43.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006133/sku/40/COL65.jpg"
+			     ],
+				"sizelist" : [
+					"160/76A/XS",
+					"165/84A/S",
+					"170/92A/M",
+                              "175/100A/L",
+                              "180/108B/XL"
+				]
+                  },
+                  {
+				"dataid" : 418694,
+				"pcode" : "u0000000008952",
+				"cate" : "男装",
+				"title" : " 袋装V领T恤(短袖) 418694",
+				"min-size" : "XS",
+				"max-size" : "XXXL",
+				"origin-price" : 39,
+				"now-price" : 35,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000008952/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000008952/sku/40/COL17.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000008952/sku/40/COL38.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000008952/sku/40/COL43.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000008952/sku/40/COL59.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000008952/sku/40/COL62.jpg"
+				],
+				"sizelist" : [
+					"160/76A/XS",
+					"165/84A/S",
+					"170/92A/M",
+                              "175/100A/L",
+                              "180/108B/XL",
+                              "185/112C/XXL",
+                              "185/120C/XXXL"
+				]
+			},
+			{
+				"dataid" : 414662,
+				"pcode" : "u0000000004778",
+				"cate" : "男装 ",
+				"title" : "EZY九分裤 414662",
+				"min-size" : "XS",
+				"max-size" : "XXXL",
+				"origin-price" : 249,
+				"now-price" : 199,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004778/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000004778/sku/40/COL31.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000004778/sku/40/COL69.jpg"
+			     ],
+				"sizelist" : [
+					"155/58A/XS",
+					"155/62A/S",
+					"160/66A/M",
+					"160/70A/L",
+					"165/78A/XL",
+					"170/82A/XXL"
+				]
+			}
                   
             ] 
       }

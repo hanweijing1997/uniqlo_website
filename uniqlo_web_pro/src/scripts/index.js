@@ -11,6 +11,7 @@ define([
       let top_nav = $(".header_nav_con");
       let little_logo = $(".logo");
       let saleNav = $(".slae_nav");
+      let leftNavPart = $(".left_hg");
 
        function changeCartsNum(){
             var count = 0;
@@ -42,7 +43,7 @@ define([
                   "scrollTop":0
             },500);
       })
-      saleNav.on("click" , function(evt){
+      saleNav.on("click" , "a" , function(evt){
             let e = evt || window.event ;
             let type = $(e.target).attr("data");
             let attr = $(e.target).parent().attr("data");
@@ -52,6 +53,13 @@ define([
             }
             location.href = "./html/goodslist.html?#"+ type+"-"+attr;
       })
+      leftNavPart.on("click" , "a" , $.proxy(function(evt){
+            let e = evt || window.event ;
+            let type = $(e.target).attr("data");
+            let h = "";
+            /\//.test(type) ? h = "./goodslist.html?#" : h = "./html/goodslist.html?#";
+            location.href = h + type.split("/")[0]+"-all";
+      },this));
       
      return data;
 });

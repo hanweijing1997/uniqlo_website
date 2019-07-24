@@ -47,7 +47,14 @@ define([
                   loaddata.init(url).then($.proxy(function(res){
                         this.res = res;
                         let html = "";
-                        html = render.init(this.res[attr].datalist,"goods");
+                        if(attr === "all"){
+                              for(var a in this.res){
+                                    html += render.init(this.res[a].datalist,"goods");
+                              }
+                        }else{
+                              html = render.init(this.res[attr].datalist,"goods");
+                        }
+                        
                         this.goodslist.html(html);
                   },this)).fail(function(){
                         console.log("json请求失败")

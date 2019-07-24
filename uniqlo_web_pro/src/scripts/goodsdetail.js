@@ -6,19 +6,46 @@ define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){
             init : function(){
                   this.gooodsdetail =$(".gd_detail");
                   this.addcarts_btn = $(".addcarts_btn");
-                  console.log(1);
+                  this.chartTab = $(".g_chart_tab");
+                  this.chartCon = $(".g_chart_con");
+                 
                   this.data = "";
                   var h = location.hash;
                   h = parseInt(h.split("#")[1]);
                   this.reRenderDetail(h);
 
+                  this.chartTab.on("click","h4",$.proxy(function(evt){
+                        let e = evt || window.event;
+                        let target = e.target || e.srcElement;
+                        $(target).parent().addClass("active")
+                        .siblings().removeClass("active");
+                        let index = $(target).parent().index();
+                        this.chartConChange(index);
+                  },this))
                   
+            },
+            chartConChange : function(index){
+                  switch(index + 1){
+                        case 1 :
+                              $(".g_chart_con div:nth-child(1)").addClass("active").removeClass("g_chart_item")
+                              .siblings().removeClass("active").addClass("g_chart_item");
+                              break;
+                        case 2 :
+                              $(".g_chart_con div:nth-child(2)").addClass("active").removeClass("g_chart_item")
+                              .siblings().removeClass("active").addClass("g_chart_item");
+                              break;
+                        case 3 :
+                              $(".g_chart_con div:nth-child(3)").addClass("active").removeClass("g_chart_item")
+                              .siblings().removeClass("active").addClass("g_chart_item");
+                              break;
+                  }
             },
             reRenderDetail : function(id){
                   loaddata.init("../data/alldata.json").done($.proxy(function(res){
                         this.data = this.getIdDetail(res.all.datalist, id);
                         // console.log(this.data);
                         let html = render.init(this.data,"detail");
+                        // console.log()
                         this.gooodsdetail.html(html);
 
                         $(".addcarts_btn").on("click",$.proxy(function(evt){

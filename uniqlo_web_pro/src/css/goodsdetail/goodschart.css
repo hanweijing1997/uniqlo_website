@@ -1,0 +1,52 @@
+.goods_relevant_info{
+      width: 1280px;
+      margin: 0 auto;
+      min-height : 1000px;
+}
+.recommend_con{
+      margin-top: 40px;
+      width: 270px;
+      float: left;
+}
+.good_chart{
+      margin-left: 290px;
+}
+.g_chart_tab{
+      display: table;
+      width: 100%;
+      zoom: 1;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #dadada;
+}
+.g_chart_tab>div{
+      float: left;
+      min-width: 120px;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+      background-color: #fff;
+      height: 50px!important;
+      cursor: pointer!important;
+      padding-top: 5px;
+      color: #ababab;
+      font-family: LTMedium;
+}
+.g_chart_tab>div h4{
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 14px;
+      font-weight: 600;
+}
+.g_chart_tab>div.active h4{
+      color: #1b1b1b;
+}
+.g_chart_tab>div.active{
+      border-bottom: 4px solid #378694;
+}
+.g_chart_item{
+      display: none;
+}
+.g_chart_con>div.active{
+      display: block;
+}
