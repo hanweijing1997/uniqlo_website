@@ -1,0 +1,60 @@
+.iconfont {
+      font-family: "iconfont" !important;
+      font-size: 20px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+.gl_top_con{
+      margin-bottom: 20px;
+}
+.gl_top_title{
+      font-size: 24px;
+      /* margin-bottom: 20px; */
+      font-weight: 600;
+      line-height: 80px;
+}
+.gl_con_fliter{
+      margin-bottom: 20px;
+}
+.gl_top_con p{
+      padding:0 10px;
+      font-size: 14px;
+      line-height: 48px; 
+      border-bottom: 1px solid #ccc;
+}
+.fold_btn{
+      float: right;
+      cursor: pointer;
+}
+.choose_list{
+      position: relative;
+      border-bottom: 1px solid rgb(218, 218, 218);
+}
+.choose_list span{
+      display: inline-block;
+      font-weight: 600;
+      padding-left: 13px;
+      width: 87px;
+      line-height: 40px;
+}
+.choose_list ul{
+      position: absolute;
+      top: 13px;
+      left: 100px;
+}
+.choose_list ul li{
+      display: inline-block;
+      cursor: pointer;
+      line-height: 14px;
+      margin-left: 30px;
+}
+.choose_list ul li:hover{
+      color: mediumblue;
+}
+.gl_top_con::after{
+      contain: "";
+      display: block;
+      height: 0;
+      clear: both;
+}

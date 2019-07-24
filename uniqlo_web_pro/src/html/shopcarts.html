@@ -8,7 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/index/header_nav.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/index/header_g.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/index/footer.css"/>
+		<link rel="stylesheet" href="../css/iconfont.css">
 		<link rel="stylesheet" type="text/css" href="../css/shopcarts/cartscon.css"/>
+
 	</head>
 	<body>
 		<div class="page_wrap">
@@ -24,7 +26,7 @@
 						<li class="spliter"></li>
 						<li> <a href="javascript:void(0)"> <i class="icon icon-favorite"></i> <span>收藏夹</span> </a> </li>
 						<li class="spliter"></li>
-						<li> <a href="./shopcarts.html"> <i class="icon icon-cart"></i> <span>购物车</span> </a> </li>
+						<li> <a href="./shopcarts.html"> <i class="icon icon-cart"></i> <span>购物车</span> <span class="cartsNumber"></span> </a> </li>
 						<li class="spliter"></li>
 						<li> <a href="javascript:void(0)"> <i class="icon icon-message"></i> <span>站内信</span> </a> </li>
 						<li class="spliter"></li>
@@ -70,7 +72,71 @@
 				</div>
 				
 				<div class="shopcarts_con">
-					<p style="font-size: 20px">这是购物车界面</p>
+					
+					<div class="sc_con_step">
+						<ul>
+							<li class="active">
+								<div>1</div>
+								<span>查看购物车</span>
+							</li>
+							<li><span class="iconfont">&#xe646;</span></li>
+							<li>
+								<div>2</div>
+								<span>订单确认</span>
+							</li>
+							<li><span class="iconfont">&#xe646;</span></li>
+							<li>
+								<div>3</div>
+								<span>订单支付</span>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<ul class="sc_con_header">
+							<li style="top:10px; left: 80px;">配送方式</li>
+							<li style="top:10px; left: 220px;">商品信息</li>
+							<li style="top:10px; left: 620px;">尺码/颜色</li>
+							<li style="top:10px; left: 760px;">价格</li>
+							<li style="top:10px; left: 890px;">数量</li>
+							<li style="top:10px; left: 1020px;">小计</li>
+						</ul>
+					</div>
+					<div>
+						<ul class="sc_con_list">
+							<li class="sc_con_item">
+								<div class="sc_con_method">
+									<input type="checkbox">修改配送方式
+									
+								</div>
+								<div class="sc_con_img">
+									<img src="https://www.uniqlo.cn/hmall/test/u0000000009217/main/first/561/1.jpg" alt="">
+								</div>
+
+								<div class="sc_con_detail">
+									<p style="font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">女装 棉质连衣裙(带胸垫)(七分袖) 419897</p>
+									<p>支持30天无理由退换货</p>
+								</div>
+								<div class="sc_con_detail">
+									<p>尺码 : 160/76/M</p>
+									<p>颜色 : 54 绿色</p>
+								</div>
+								<div class="sc_con_detail">
+									<p class="price_bold">￥79.00</p>
+									<p>初上市价格 </p>
+									<p>￥79.00</p>
+								</div>
+								<div class="sc_con_count">
+									<span>1</span>
+								</div>
+								<div class="sc_con_price">
+									<p class="price_bold">￥79.00</p>
+								</div>
+							</li>
+
+							
+						</ul>
+					</div>
+				
 				</div>
 			</div>
 			
@@ -150,7 +216,7 @@
                                   "jquery" : "https://cdn.bootcss.com/jquery/3.4.1/jquery"
                             }
                       })
-                      require(["../scripts/index.js"]);
+                      require(["../scripts/index.js", "../scripts/carts.js"]);
             </script>
 	</body>
 </html>

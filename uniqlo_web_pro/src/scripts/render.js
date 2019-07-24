@@ -26,10 +26,10 @@ define(["jquery"],function($){
                                                       <li> <img style="width:90%;margin-right:5px;" src="https://www.uniqlo.cn/cms/b11ef5e69f0e7edac050452a5e534406.jpg" > </li>
                                                 </ul>
                                                 <div style="position: relative; margin-bottom: 10px;">
-                                                      <img style="width:205px; height: 205px;" src="${item.imgurl}" >
+                                                      <img style="width:225px; height: 225px; text-align: center;" src="${item.imgurl}" >
                                                 </div>
                                                 <p>${item.cate} <span class="gl_item_size">XS - XXXL</span> </p>
-                                                <p>${item.title}</p>
+                                                <p style="font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</p>
                                                 <p>初上市价格 : ￥${item["origin-price"]}.00</p>
                                                 <div class="gl_item_p">￥${item["now-price"]}.00</div>
                                           </div>
@@ -65,9 +65,7 @@ define(["jquery"],function($){
                               <div class="gd_con_color">
                                     <p>颜色 : </p>
                                     <ul>
-                                          <li></li>
-                                          <li></li>
-                                          <li></li>
+                                          ${this.getDetailColorList(list.colorList)}
                                     </ul>
                               </div>
                               <div class="gd_con_size">
@@ -82,8 +80,8 @@ define(["jquery"],function($){
                                     <label> <input type="radio" name="getmethod"> 门店自提 </label>
                               </div>
                               <div  class="gd_con_buy">
-                                    <button class="buynow_btn" type="button">立即购买</button>
-                                    <button class="addcarts_btn" type="button">添加至购物车</button>
+                                    <button class="buynow_btn" type="button" data-id="${list.dataid}">立即购买</button>
+                                    <button class="addcarts_btn" type="button" data-id="${list.dataid}">添加至购物车</button>
                               </div>
                               <p style="margin-top: 20px;height: 20px;">
                                     支持30天无理由退换货
@@ -92,9 +90,6 @@ define(["jquery"],function($){
                               </p>
                         </div>`;
                   return html;
-            },
-            cartsListShow : function(list){
-                  
             },
             getDetailImgList : function(list){
                   let html = "";
@@ -105,12 +100,73 @@ define(["jquery"],function($){
                                     </li>`;
                   })
                   return html;
+                 
+            },
+            cartsListShow : function(list){
+                  
+                  var s = localStorage.getItem("carts");
+			var ls = JSON.parse(s === null ? "[]":  s);
+			
+      
+			list = list.filter(function(goods){
+				return ls.some(function(item,index){
+					if(item.id == goods.dataid){
+						goods.count = item.count;
+						return true;
+					}
+				})
+                  })
+                  
+                  let html = "";
+                  $.each(list , function(index,item){
+                        html += `
+                              <li class="sc_con_item">
+                                    <div class="sc_con_method">
+                                          <input type="checkbox">修改配送方式
+                                          
+                                    </div>
+                                    <div class="sc_con_img">
+                                          <img src="${item.imgurl}" alt="">
+                                    </div>
+
+                                    <div class="sc_con_detail">
+                                          <p style="width:220px;font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.cate}  ${item.title}</p>
+                                          <p>支持30天无理由退换货</p>
+                                    </div>
+                                    <div class="sc_con_detail">
+                                          <p>尺码 : 160/76/M</p>
+                                          <p>颜色 : 54 绿色</p>
+                                    </div>
+                                    <div class="sc_con_detail">
+                                          <p class="price_bold">￥${item["origin-price"]}.00</p>
+                                          <p>初上市价格 </p>
+                                          <p>￥${item["now-price"]}.00</p>
+                                    </div>
+                                    <div class="sc_con_count">
+                                          <span> <i class="iconfont" style="float:left;margin-left:-3px">&#xe723;</i> ${item.count}  <i class="iconfont" style="float:right;margin-right:-3px;">&#xe71e;</i></span>
+                                    </div>
+                                    <div class="sc_con_price">
+                                          <p class="price_bold">￥${item.count * item["now-price"]}.00</p>
+                                    </div>
+                              </li>`;
+                  })
+                  return html;
             },
             getDetailSizeList : function(list){
                   let html = "";
                   $.each(list , function(index,item){
                         html += `
                         <li class="">${item}</li> `;
+                  })
+                  return html;
+            },
+            getDetailColorList : function(list){
+                  let html = "";
+                  $.each(list , function(index,item){
+                        html += `
+                        <li>
+                              <img style="width:100%" src="${item}">
+                        </li> `;
                   })
                   return html;
             }
