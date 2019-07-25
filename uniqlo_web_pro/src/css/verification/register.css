@@ -1,0 +1,79 @@
+.verification_con{
+      width: 1280px;
+      margin: 0 auto;
+      min-height: 500px;
+}
+.ver_title{
+      font-size: 16px;
+      text-indent: 6px;
+      background-color: #f4f4f4;
+}
+.ver_title h4{
+      margin: 0;
+      line-height: 60px;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: .1em;
+}
+.register_form{
+      margin: 20px auto;
+      padding: 20px 400px;
+}
+.form_item{
+      margin-top: 20px;
+}
+.form_item span{
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle;
+}
+.input_bar{
+      position: relative;
+      border-bottom: 1px solid #dadada;
+      height: 36px;
+      width: 100%;
+      margin-top: 5px;
+}
+.input_bar i{
+      display: inline-block;
+      vertical-align: middle;
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      left: 3px;
+}
+.input_bar input{
+      padding-left: 23px;
+      text-indent: 0;
+      position: absolute;
+      display: block;
+      border-style: none;
+      background-color: transparent;
+      text-indent: 6px;
+      height: 100%;
+      width: 100%;
+}
+.error_msg{
+      display: none;
+      margin-top: 10px;
+      color: #fe0000;
+      white-space: normal;
+}
+.error_msg_con{
+      vertical-align: middle;
+}
+.register_btn{
+      height: 52px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(27, 27, 27);
+      font-size: 14px;
+      width: 100%;
+      border: 0;
+}
+.form_item input[type=radio]{
+      vertical-align: middle;
+}

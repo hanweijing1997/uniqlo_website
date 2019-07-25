@@ -8,11 +8,16 @@ define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){
                   this.addcarts_btn = $(".addcarts_btn");
                   this.chartTab = $(".g_chart_tab");
                   this.chartCon = $(".g_chart_con");
+                  this.ul = $(".staris_nav");
+                  this.stairsList = $(".chart_stairs").children();
+                  this.heightList = [];
+                  this.minHei = 0;
                  
                   this.data = "";
                   var h = location.hash;
                   h = parseInt(h.split("#")[1]);
                   this.reRenderDetail(h);
+                  this.getHeightList();
 
                   this.chartTab.on("click","h4",$.proxy(function(evt){
                         let e = evt || window.event;
@@ -22,20 +27,63 @@ define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){
                         let index = $(target).parent().index();
                         this.chartConChange(index);
                   },this))
+
+                  $(window).on( "scroll" , $.proxy(function(){
+                        let scrolltop = $("body,html").scrollTop();
+                        if(scrolltop > this.minHei){
+                              this.ul.addClass("fixed_ul");
+                        }else{
+                              this.ul.removeClass("fixed_ul");
+                        }                       
+                        this.changeStairs(scrolltop);
+                  },this))
+
+                  this.ul.on("click" , "li" , $.proxy(function(evt){
+                        let e = evt || window.event;
+                        let target = e.target || e.srcElement;
+                        let index = $(target).index();
+                        this.changeStairs(index);
+                        let s_top = this.heightList[index].min;
+                        $("body,html").animate({
+                              "scrollTop":s_top
+                        },500);
+                  },this));
                   
+            },
+            getHeightList : function(){
+                  let topHei = $(".g_chart_con").offset().top ;
+                  $.each(this.stairsList , $.proxy(function(index,ele){             
+                        let min = $(ele).offset().top + topHei;
+                        let max = min + $(ele).outerHeight();
+                        this.heightList.push({
+                              min,
+                              max
+                        });
+                        if(index === 0){
+                              this.minHei = min;
+                        }
+                  },this))
+            },
+            changeStairs : function(st){
+                  $.each(this.heightList , $.proxy(function(index,item){
+                        if(st >= item.min && st < item.max){
+                              this.ul.children().eq(index).addClass("arrive_this")
+                              .siblings().removeClass("arrive_this");
+                        }
+                  },this));
             },
             chartConChange : function(index){
                   switch(index + 1){
                         case 1 :
-                              $(".g_chart_con div:nth-child(1)").addClass("active").removeClass("g_chart_item")
+                              $(".g_chart_con>div:nth-child(1)").addClass("active").removeClass("g_chart_item")
                               .siblings().removeClass("active").addClass("g_chart_item");
                               break;
                         case 2 :
-                              $(".g_chart_con div:nth-child(2)").addClass("active").removeClass("g_chart_item")
+                              $(".g_chart_con>div:nth-child(2)").addClass("active").removeClass("g_chart_item")
                               .siblings().removeClass("active").addClass("g_chart_item");
                               break;
                         case 3 :
-                              $(".g_chart_con div:nth-child(3)").addClass("active").removeClass("g_chart_item")
+                              $(".g_chart_con>div:nth-child(3)").addClass("active").removeClass("g_chart_item")
                               .siblings().removeClass("active").addClass("g_chart_item");
                               break;
                   }
