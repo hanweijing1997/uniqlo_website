@@ -3,13 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="referrer" content="no-referrer" />
-		<title>用户注册</title>
+		<title>用户登录</title>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/index/header_nav.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/index/header_g.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/index/footer.css"/>
             <link rel="stylesheet" href="../css/iconfont.css">
             <link rel="stylesheet" href="../css/verification/register.css">
+            <link rel="stylesheet" href="../css/verification/login.css">
 	</head>
 	<body>
 		<div class="page_wrap">
@@ -19,7 +20,7 @@
 					<ul>
 						<li> <a href="javascript:void(0)"> 登录</a> </li>
 						<li class="spliter"></li>
-						<li> <a href="javascript:void(0)"> <span>注册</span> </a> </li>
+						<li> <a href="./register.html"> <span>注册</span> </a> </li>
 						<li class="spliter"></li>
 						<li> <a href="javascript:void(0)"> <i class="icon info_icon"></i> <span>账户</span> </a> </li>
 						<li class="spliter"></li>
@@ -72,12 +73,19 @@
 				
 				<div class="verification_con">
                               <div class="ver_title">
-                                    <h4>新用户注册</h4>
+                                    <h4>用户登录</h4>
                               </div>
-                              <div class="register_form">
-						<div class="form_item">
-							<p class="error_msg"><i class="iconfont">&#xe603;</i> <span class="error_msg_con"></span> </p>
-						</div>
+                              <div class="login_form">
+                                    <div class="form_item">
+                                          <div class="login_tab">
+                                                <div style="width: 50%" class="active">
+                                                      <h4>密码登录</h4>
+                                                </div>
+                                                <div style="width: 50%">
+                                                      <h4>动态验证码登录</h4>
+                                                </div>
+                                          </div>
+                                    </div>
                                     <div class="form_item">
                                           <span>手机号 *</span>
                                           <div class="input_bar">
@@ -96,25 +104,28 @@
 
                                           <p class="error_msg"><i class="iconfont">&#xe603;</i> <span class="error_msg_con"></span> </p>
                                     </div>
-                                    <div class="form_item">
-                                          <span>确认密码 *</span>
-                                          <div class="input_bar">
-                                                <i class="iconfont">&#xe60c;</i>
-                                                <input type="password" placeholder="密码格式为6-16位的数字或字母" id="pwd_repeat">
-                                          </div>
-
-                                          <p class="error_msg"><i class="iconfont">&#xe603;</i> <span class="error_msg_con"></span> </p>
-                                    </div>
+       
                                     <div class="form_item">
                                           <p>
-                                                <input type="radio">
-                                                <span>我已阅读并同意 <a href="javascript:;" style="color: #28788c;">《优衣库会员注册协议》</a> 和<a href="javascript:;" style="color: #28788c;">《优衣库隐私政策》</a></span>
+                                                 <a href="javascript:;" style="color: #28788c;">忘记密码</a>
                                           </p>
                                     </div>
                                     <div class="form_item">
-                                          <button class="register_btn">注册</button>
+                                          <button class="login_btn">登录</button>
                                     </div>
                               </div>
+
+                              <div class="login_register">
+                                    <h4>用户注册</h4>
+                                    <div>
+                                          <a href="./register.html">
+                                                <button class="gotoregister_btn">新用户注册</button>
+                                          </a>
+                                          
+                                    </div>
+                                    
+                              </div>
+                                    
                         </div>
 				
 				<div style="clear: both; height: 0;"></div>
@@ -196,7 +207,7 @@
                                   "jquery" : "https://cdn.bootcss.com/jquery/3.4.1/jquery"
                             }
                       })
-                      require(["../scripts/index.js","../scripts/register.js"]);
+                      require(["../scripts/index.js","../scripts/login.js"]);
             </script>
 	</body>
 </html>

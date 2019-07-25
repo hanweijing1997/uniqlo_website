@@ -5,6 +5,7 @@ define([
 ], function($,goodslist,loaddata) {
       'use strict';
       changeCartsNum();
+      verification();
 
       let data = {};
       let gotop_btn = $("#go_top");
@@ -12,6 +13,7 @@ define([
       let little_logo = $(".logo");
       let saleNav = $(".slae_nav");
       let leftNavPart = $(".left_hg");
+      let exitBtn = $(".exit_account");
 
        function changeCartsNum(){
             var count = 0;
@@ -58,8 +60,42 @@ define([
             let type = $(e.target).attr("data");
             let h = "";
             /\//.test(type) ? h = "./goodslist.html?#" : h = "./html/goodslist.html?#";
-            location.href = h + type.split("/")[0]+"-all";
+            window.open(h + type.split("/")[0]+"-all");
       },this));
+
+      function verification(){
+            if($(".nologin").css("display")==="none"){
+                  return true;
+            }
+            let url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
+            $.ajax(url).done(function(res){
+                  res = JSON.parse(res);
+                  if(res.state === "error"){
+                        $(".nologin").css("display","inline-block");
+                        $(".logined").css("display","none")
+                        return false;
+                  }
+                 $(".nologin").css("display","none");
+                 $(".logined").css("display","inline-block")
+                 $(".username_a").html(res.username);
+            })
+      }
+
+      exitBtn.on("click",function(){
+            let url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
+            $.ajax(url,{
+                  data : {
+                        removecookie : "true"
+                  },
+                  type : "POST"
+
+            }).done(function(res){
+                  res = JSON.parse(res);
+                  if(res.state === "remove"){
+                        location.reload();
+                  }
+            })
+      })
       
      return data;
 });
