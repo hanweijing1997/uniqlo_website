@@ -28,7 +28,7 @@ define(["jquery"],function($){
                                                 <div style="position: relative; margin-bottom: 10px;">
                                                       <img style="width:225px; height: 225px; text-align: center;" src="${item.imgurl}" >
                                                 </div>
-                                                <p>${item.cate} <span class="gl_item_size">XS - XXXL</span> </p>
+                                                <p>${item.cate} <span class="gl_item_size">${item["min-size"]} - ${item["max-size"]}</span> </p>
                                                 <p style="font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${item.title}</p>
                                                 <p>初上市价格 : ￥${item["origin-price"]}.00</p>
                                                 <div class="gl_item_p">￥${item["now-price"]}.00</div>

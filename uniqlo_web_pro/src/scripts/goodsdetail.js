@@ -115,7 +115,6 @@ define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){
                  return data;
             },
             saveId : function(id){
-                  console.log(id);
                   var s = localStorage.getItem("carts");
 			if(s === null){
 				//当前无相关localStorage，创建一个新的

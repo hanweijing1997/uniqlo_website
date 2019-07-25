@@ -483,6 +483,82 @@
 					"165/78A/XL",
 					"170/82A/XXL"
 				]
+                  },
+                  {
+				"dataid" : 409325,
+				"pcode" : "u0000000004658",
+				"cate" : "男装",
+				"title" : " 高级轻型羽绒无缝连帽外套 409325",
+				"min-size" : "S",
+				"max-size" : "XL",
+				"origin-price" : 599,
+				"now-price" : 199,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000004658/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000004658/sku/40/COL65.jpg"
+				],
+				"sizelist" : [
+					"165/84A/S"
+				]
+			},
+			{
+				"dataid" : 415540,
+				"pcode" : "u0000000007636",
+				"cate" : "男装",
+				"title" : "修身无褶长裤 415540",
+				"min-size" : "165/72A",
+				"max-size" : "180/90B",
+				"origin-price" : 249,
+				"now-price" : 59,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000007636/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000007636/sku/40/COL36.jpg"
+			     ],
+				"sizelist" : [
+					"165/72A",
+					"165/76A",
+					"170/78A",
+					"170/82A",
+					"175/84A",
+					"175/88A",
+					"180/90B"
+				]
 			}
                   
             ] 

@@ -2,81 +2,81 @@
 	"zxsj" : {
 		"datalist" : [
 			{
-				"dataid" : 420817,
-				"pcode" : "u0000000010477",
-				"cate" : "男装",
-				"title" : "Keith Haring UT(短袖) 420817",
-				"min-size" : "XS",
-				"max-size" : "XXXXL",
-				"origin-price" : 99,
-				"now-price" : 99,
-				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/first/561/1.jpg",
+				"dataid" : 421069,
+				"pcode" : "u0000000009837",
+				"cate" : "童装/男童/女童",
+				"title" : "高弹力牛仔修身长裤(水洗产品) 421069",
+				"min-size" : "110/50",
+				"max-size" : "160/65",
+				"origin-price" : 149,
+				"now-price" : 149,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/first/561/1.jpg",
 				"cover" : {
 					"cover1" : {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/first/561/1.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/first/1000/1.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/first/561/1.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/first/1000/1.jpg"
                                     },
                               "cover2" :     {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other1/480/2.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other1/1000/2.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other1/480/2.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other1/1000/2.jpg"
                                     },
                               "cover3" :       {
-                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other3/480/4.jpg",
-                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010477/main/other3/1000/4.jpg"
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other3/480/4.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other3/1000/4.jpg"
                                     }
 				},
 				"colorList" : [
-					 "https://www.uniqlo.cn/hmall/test/u0000000010477/sku/40/COL65.jpg"
+					 "https://www.uniqlo.cn/hmall/test/u0000000009837/sku/40/COL63.jpg"
 				],
 				"sizelist" : [
-					"160/76A/XS",
-					"165/84A/S",
-					"170/92A/M",
-                              "175/100A/L",
-                              "180/108B/XL",
-                              "185/112C/XXL",
-                              "185/120C/XXXL"
+                              "110/50",
+                              "120/53",
+                              "130/56",
+                              "140/59",
+                              "150/62",
+                              "160/65"
 				]
 			},
 			{
-				"dataid" : 422063,
-				"pcode" : "u0000000010473",
-				"cate" : "男装",
-				"title" : " Keith Haring运动衫(长袖) 422063",
-				"min-size" : "XS",
-				"max-size" : "XXXL",
-				"origin-price" : 199,
-				"now-price" : 199,
-				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/first/561/1.jpg",
+				"dataid" : 422180,
+				"pcode" : "u0000000010345",
+				"cate" : "童装/女童",
+				"title" : "(UT) The Brands OKASHI 印花T恤(短袖) 422180",
+				"min-size" : "110/56",
+				"max-size" : "160/76",
+				"origin-price" : 79,
+				"now-price" : 79,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/first/561/1.jpg",
 				"cover" : {
 					"cover1" : {
-						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/first/561/1.jpg",
-						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/first/1000/1.jpg"
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/first/1000/1.jpg"
 					},
 					"cover2" : {
-						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other1/480/2.jpg",
-						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other1/1000/2.jpg"
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other1/480/2.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other1/1000/2.jpg"
                               },
                               "cover3" : {
-						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other3/480/4.jpg",
-						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other3/1000/4.jpg"
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other3/1000/4.jpg"
 					},
 					"cover4" : {
-						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other4/480/5.jpg",
-						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010473/main/other4/1000/5.jpg"
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other4/1000/5.jpg"
 					}
 				},
 				"colorList" : [
-					 "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL59.jpg"
+                               "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL00.jpg",
+                               "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL15.jpg",
+                               "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL69.jpg"
 				],
 				"sizelist" : [
-					"160/76A/XS",
-					"165/84A/S",
-					"170/92A/M",
-                              "175/100A/L",
-                              "180/108B/XL",
-                              "185/112C/XXL",
-                              "185/120C/XXXL"
+                              "110/56",
+                              "120/60",
+                              "130/64",
+                              "140/68",
+                              "150/72",
+                              "160/76"
 				]
 			}
 			
