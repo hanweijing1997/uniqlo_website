@@ -35,8 +35,8 @@
 }
 .gd_smallimg_list li{
 	margin-bottom: 10px;
-    width: 84px;
-    height: 84px;
+	width: 84px;
+	height: 84px;
 	border: 2px solid transparent;
 }
 .gd_smallimg_list li.active{
@@ -56,22 +56,20 @@
 	position: relative;
 }
 .gd_img_mid img{
-	border: 1px solid #dadada;
+	/* border: 1px solid #dadada; */
     width: 100%;
     height: 100%;
 }
 .cursor-div{
-	width: 250px;
-	height: 250px;
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image : url(https://www.uniqlo.cn/hmall/test/u0000000005566/main/other1/480/2.jpg) ;
-	background-repeat: no-repeat;
-	background-size: 500px 500px;
-	overflow: hidden;
-	/* box-shadow: 0 0 1px #ddd; */
-	display: none;
+	right: 0;
+	bottom: 0;
+	cursor: move;
+	border-style: solid;
+	border-color: #000;
 }
 .gd_img_big{
 	display: none;

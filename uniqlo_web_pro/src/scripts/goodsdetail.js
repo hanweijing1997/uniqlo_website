@@ -1,9 +1,28 @@
-define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){	
+define(["jquery","./loaddata.js" , "./render.js" , "./magnifying.js"],function($,loaddata,render , magnifying){	
 	function Goodsdetail(){
 
       }
       $.extend(Goodsdetail.prototype , {
             init : function(){
+                  this.data = "";
+                  var h = location.hash;
+                  h = parseInt(h.split("#")[1]);
+                  loaddata.init("../data/alldata.json").done($.proxy(function(res){
+                        this.data = this.getIdDetail(res.all.datalist, h);
+                        
+                        let html = render.init(this.data,"detail");
+                        this.gooodsdetail.html(html);
+                        magnifying.init();
+
+                        $(".addcarts_btn").on("click",$.proxy(function(evt){
+                              let e = evt || window.event;
+                              let target = e.target || e.srcElement;
+                              let id = $(target).attr("data-id");
+                              this.saveId(id);
+                              this.changeCartsNum();
+                        },this));
+                  },this))
+
                   this.gooodsdetail =$(".gd_detail");
                   this.addcarts_btn = $(".addcarts_btn");
                   this.chartTab = $(".g_chart_tab");
@@ -13,10 +32,7 @@ define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){
                   this.heightList = [];
                   this.minHei = 0;
                  
-                  this.data = "";
-                  var h = location.hash;
-                  h = parseInt(h.split("#")[1]);
-                  this.reRenderDetail(h);
+                  
                   this.getHeightList();
 
                   this.chartTab.on("click","h4",$.proxy(function(evt){
@@ -87,23 +103,6 @@ define(["jquery","./loaddata.js" , "./render.js"],function($,loaddata,render){
                               .siblings().removeClass("active").addClass("g_chart_item");
                               break;
                   }
-            },
-            reRenderDetail : function(id){
-                  loaddata.init("../data/alldata.json").done($.proxy(function(res){
-                        this.data = this.getIdDetail(res.all.datalist, id);
-                        // console.log(this.data);
-                        let html = render.init(this.data,"detail");
-                        // console.log()
-                        this.gooodsdetail.html(html);
-
-                        $(".addcarts_btn").on("click",$.proxy(function(evt){
-                              let e = evt || window.event;
-                              let target = e.target || e.srcElement;
-                              let id = $(target).attr("data-id");
-                              this.saveId(id);
-                              this.changeCartsNum();
-                        },this));
-                  },this))
             },
             getIdDetail : function(list ,id){
                   let data = "";

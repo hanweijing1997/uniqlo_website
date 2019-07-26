@@ -231,7 +231,8 @@
                               "165/78A/XL",
                               "170/82A/XXL"
                         ]
-                  },
+			},
+			
                   {
 				"dataid" : 420817,
 				"pcode" : "u0000000010477",
@@ -558,6 +559,332 @@
 					"175/84A",
 					"175/88A",
 					"180/90B"
+				]
+			},
+			
+			{
+				"dataid" : 421069,
+				"pcode" : "u0000000009837",
+				"cate" : "童装/男童/女童",
+				"title" : "高弹力牛仔修身长裤(水洗产品) 421069",
+				"min-size" : "110/50",
+				"max-size" : "160/65",
+				"origin-price" : 149,
+				"now-price" : 149,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/first/561/1.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/first/1000/1.jpg"
+                                    },
+                              "cover2" :     {
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other1/480/2.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other1/1000/2.jpg"
+                                    },
+                              "cover3" :       {
+                                    "s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other3/480/4.jpg",
+                                    "b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009837/main/other3/1000/4.jpg"
+                                    }
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000009837/sku/40/COL63.jpg"
+				],
+				"sizelist" : [
+                              "110/50",
+                              "120/53",
+                              "130/56",
+                              "140/59",
+                              "150/62",
+                              "160/65"
+				]
+			},
+			{
+				"dataid" : 422180,
+				"pcode" : "u0000000010345",
+				"cate" : "童装/女童",
+				"title" : "(UT) The Brands OKASHI 印花T恤(短袖) 422180",
+				"min-size" : "110/56",
+				"max-size" : "160/76",
+				"origin-price" : 79,
+				"now-price" : 79,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/first/1000/1.jpg"
+					},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other1/480/2.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other1/1000/2.jpg"
+                              },
+                              "cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other3/1000/4.jpg"
+					},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010345/main/other4/1000/5.jpg"
+					}
+				},
+				"colorList" : [
+                               "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL00.jpg",
+                               "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL15.jpg",
+                               "https://www.uniqlo.cn/hmall/test/u0000000010473/sku/40/COL69.jpg"
+				],
+				"sizelist" : [
+                              "110/56",
+                              "120/60",
+                              "130/64",
+                              "140/68",
+                              "150/72",
+                              "160/76"
+				]
+			},
+			{
+				"dataid" : 420877,
+				"pcode" : "u0000000009560",
+				"cate" : "童装/女童",
+				"title" : " 紧身裤(罗纹)(九分) 420877",
+				"min-size" : "110/60",
+				"max-size" : "160/80",
+				"origin-price" : 59,
+				"now-price" : 39,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000009560/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000009560/sku/40/COL08.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009560/sku/40/COL09.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000009560/sku/40/COL31.jpg"
+				],
+				"sizelist" : [
+					"110/60",
+					"120/60",
+					"130/65",
+					"140/70",
+					"150/75",
+					"160/80"
+				]
+			},
+			{
+				"dataid" : 414252,
+				"pcode" : "u0000000006284",
+				"cate" : "童装/男童/女童 ",
+				"title" : " DRY-EX短裤 414252",
+				"min-size" : "110/50",
+				"max-size" : "150/62",
+				"origin-price" : 79,
+				"now-price" : 59,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006284/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000006284/sku/40/COL03.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006284/sku/40/COL09.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006284/sku/40/COL68.jpg"
+			     ],
+				"sizelist" : [
+					"110/50",
+					"120/53",
+					"130/56",
+					"140/59",
+					"150/62"
+				]
+			},
+			{
+				"dataid" : 420497,
+				"pcode" : "u0000000010355",
+				"cate" : "童装/男童/女童",
+				"title" : "(UT) PEANUTS圆领针织衫(长袖) 420497",
+				"min-size" : "110/56",
+				"max-size" : "160/76",
+				"origin-price" : 149,
+				"now-price" : 149,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/other1/480/2.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010355/main/other1/1000/2.jpg"
+						}
+				},
+				"colorList" : [
+					 "https://www.uniqlo.cn/hmall/test/u0000000010355/sku/40/COL05.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000010355/sku/40/COL69.jpg"
+				],
+				"sizelist" : [
+					"110/56",
+					"120/60",
+					"130/64",
+					"140/68",
+					"150/72",
+					"160/76"
+				]
+			},
+			{
+				"dataid" : 418645,
+				"pcode" : "u0000000010352",
+				"cate" : "童装/男童/女童",
+				"title" : " (UT) PEANUTS圆领针织衫(长袖) 418645",
+				"min-size" : "110/56",
+				"max-size" : "160/76",
+				"origin-price" : 149,
+				"now-price" : 149,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000010352/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000010352/sku/40/COL01.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000010352/sku/40/COL09.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000010352/sku/40/COL12.jpg"
+			     ],
+				"sizelist" : [
+					"110/56",
+					"120/60",
+					"130/64",
+					"140/68",
+					"150/72",
+					"160/76"
+				]
+			},
+			{
+				"dataid" : 415165,
+				"pcode" : "u0000000006063",
+				"cate" : "童装/女童",
+				"title" : "紧身裤(七分) 415165",
+				"min-size" : "110/60",
+				"max-size" : "150/75",
+				"origin-price" : 59,
+				"now-price" : 19,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006063/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000006063/sku/40/COL63.jpg",
+					 "https://www.uniqlo.cn/hmall/test/u0000000006063/sku/40/COL65.jpg"
+				],
+				"sizelist" : [
+					"110/60",
+					"120/60",
+					"130/65",
+					"140/70",
+					"150/75"
+				]
+			},
+			{
+				"dataid" : 415189,
+				"pcode" : "u0000000006263",
+				"cate" : "童装/女童",
+				"title" : "松紧灯笼短裤 415189",
+				"min-size" : "110/50",
+				"max-size" : "160/65",
+				"origin-price" : 99,
+				"now-price" : 39,
+				"imgurl" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/first/561/1.jpg",
+				"cover" : {
+					"cover1" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/first/561/1.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/first/1000/1.jpg"
+						},
+					"cover2" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/other2/480/3.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/other2/1000/3.jpg"
+						},
+					"cover3" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/other3/480/4.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/other3/1000/4.jpg"
+						},
+					"cover4" : {
+						"s-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/other4/480/5.jpg",
+						"b-img" : "https://www.uniqlo.cn/hmall/test/u0000000006263/main/other4/1000/5.jpg"
+						}
+				},
+				"colorList" : [
+					"https://www.uniqlo.cn/hmall/test/u0000000006263/sku/40/COL12.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006263/sku/40/COL30.jpg",
+					"https://www.uniqlo.cn/hmall/test/u0000000006263/sku/40/COL53.jpg"
+			     ],
+				"sizelist" : [
+					"110/50",
+					"120/53",
+					"130/56",
+					"140/59",
+					"150/62"
 				]
 			}
                   

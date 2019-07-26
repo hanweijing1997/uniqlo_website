@@ -94,10 +94,18 @@ define(["jquery"],function($){
             getDetailImgList : function(list){
                   let html = "";
                   $.each(list , function(index,item){
-                        html += `  
-                                    <li class="active">
-                                          <img src="${item["s-img"]}">
-                                    </li>`;
+                        if(index === 0){
+                              html += `  
+                              <li class="active">
+                                    <img src="${item["s-img"]}" data-src="${item["b-img"]}">
+                              </li>`;
+                        }else{
+                              html += `  
+                              <li>
+                                    <img src="${item["s-img"]}" data-src="${item["b-img"]}">
+                              </li>`;
+                        }
+                       
                   })
                   return html;
                  
