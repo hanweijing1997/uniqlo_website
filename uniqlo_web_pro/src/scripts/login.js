@@ -1,8 +1,8 @@
 define(["jquery"],function($){	
-      let loginBtn = $(".login_btn");
-      let username = $("#userid");
-      let password = $("#pwd");
-      let verify = [0,0]
+      var loginBtn = $(".login_btn");
+      var username = $("#userid");
+      var password = $("#pwd");
+      var verify = [0,0]
 
       username.on("blur" ,function(){
             var reg = /^1[3-9]\d{9}$/;
@@ -66,6 +66,11 @@ define(["jquery"],function($){
                                     break;
                         
                         }
+                  })
+                  .fail(function(res){
+                        $(".error_msg").eq(0).css("display","block")
+                        .children(".error_msg_con").html("数据请求失败了");
+                        password.val("");
                   })
             }
       })

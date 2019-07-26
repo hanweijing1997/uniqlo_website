@@ -53,6 +53,7 @@
 	height: 50px;
 	position: absolute;
 	z-index: 999;
+	cursor: pointer;
 }
 .button-next {
 	background: #fe0000 url(https://upload-images.jianshu.io/upload_images/18462345-6215697a0508732e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
@@ -123,3 +124,45 @@
 	opacity: 1;
 	background: #3C3C3C;
 }
+
+.swiper-container {
+      width: 1280px;
+      height: 370px;
+}
+.swiper-button-prev{
+	left: -50px;
+	background:#fd0 url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png) no-repeat center center;
+	position: absolute;
+	display: block;
+	top: 0;
+	width: 50px;
+	cursor: pointer;
+	height: 220px;
+}
+.swiper-button-next{
+	right: -50px;
+	background: #fd0 url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png) no-repeat center center;
+	position: absolute;
+	display: block;
+	top: 0;
+	width: 50px;
+	cursor: pointer;
+	height: 220px;
+}
+/* .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+} */

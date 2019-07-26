@@ -1,9 +1,9 @@
 define(["jquery"],function($){	
-      let registerBtn = $(".register_btn");
-      let username = $("#userid");
-      let password = $("#pwd");
-      let repass = $("#pwd_repeat");
-      let verify = [0,0,0]
+      var registerBtn = $(".register_btn");
+      var username = $("#userid");
+      var password = $("#pwd");
+      var repass = $("#pwd_repeat");
+      var verify = [0,0,0]
 
       username.on("blur" ,function(){
             $(".error_msg").eq(0).css("display","none");
@@ -81,6 +81,12 @@ define(["jquery"],function($){
                                     repass.val("");
                                     break;
                         }
+                  })
+                  .fail(function(res){
+                        $(".error_msg").eq(0).css("display","block")
+                        .children(".error_msg_con").html("数据请求失败了");
+                        password.val("");
+                        repass.val("");
                   })
             }
       })

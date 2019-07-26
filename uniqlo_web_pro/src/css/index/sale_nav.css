@@ -48,3 +48,6 @@
 .sale_g ul li .sg_list .sg_woman{
 	margin-left: 0;
 }
+.sale_g .sg_list a:hover{
+    color: red;
+}

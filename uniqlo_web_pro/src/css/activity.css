@@ -1,0 +1,114 @@
+.notice_con{
+      width: 1280px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 52px;
+}
+.notice_item{
+      margin-bottom: 20px;
+}
+.nc_tit{
+      background-color: #FF0000;
+      color: #FFFFFF;
+      font-weight: bold;
+      height: 35px;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+      width: 1280px;
+      margin: 0 auto;
+      font-size: 13px;
+}
+.nc_tit div{
+      float: left;
+      height: 35px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      padding-top: 10px;
+}
+
+.notice_item_tit{
+      color: #000000;
+      width: 1280px;
+      background-color: #f1f1f1;
+      border: 1px solid #DCDCDC;
+      cursor: pointer;
+      height: 40px;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+      margin: 0 auto;
+      border-left: 1px solid #dcdcdc;
+      border-right: 1px solid #dcdcdc;
+      font-size: 13px;
+}
+.notice_item_tit div{
+      float: left;
+      height: 35px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      padding-top: 10px;
+      font-weight: 600;
+}
+.txt_box{
+      color: #000;
+      font-family: 'Uniqlo Light','fzlt_pro';
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+      padding-left: 5%;
+      padding-right: 5%;
+      border-bottom: 1px solid #dcdcdc;
+      border-left: 1px solid #dcdcdc;
+      border-right: 1px solid #dcdcdc;
+      overflow: hidden;
+      width: 1280px;
+      background-color: #fff;
+      margin: 0 auto;
+      display: table;
+      line-height: 22px;
+      font-size: 13px;
+}
+
+.notice_nav{
+      width: 150px;
+      height: 400px;
+      background-color: #1b1b1b;
+      position: fixed;
+      top: 15%;
+      right: -150px;
+      opacity: 0.8;
+
+}
+.notice_nav span{
+      cursor: pointer;
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      background-color: #f00;
+}
+.notice_nav span.iconfont{
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      color: #fff;
+}
+.notice_nav ul{
+      padding: 10px;
+}
+.notice_nav ul li{
+      cursor: pointer;
+      color: #ccc;
+      line-height: 50px;
+      font-size: 12px;
+      font-weight: 600;
+}
+.notice_nav ul li.active{
+      font-size: 16px;
+      color: #fff;
+}

@@ -10,14 +10,24 @@ define(["jquery","./loaddata.js" , "./render.js" , "./magnifying.js"],function($
                   loaddata.init("../data/alldata.json").done($.proxy(function(res){
                         this.data = this.getIdDetail(res.all.datalist, h);
                         
-                        let html = render.init(this.data,"detail");
+                        var html = render.init(this.data,"detail");
                         this.gooodsdetail.html(html);
                         magnifying.init();
 
+                        this.size_list = $(".gd_con_size ul");
+                        this.size_list.on("click" , "li" , function(evt){
+                              var e = evt || window.event;
+                              var target = e.target || e.srcElement;
+                              $(target).addClass("active")
+                              .siblings().removeClass("active");
+                        })
+
+
+
                         $(".addcarts_btn").on("click",$.proxy(function(evt){
-                              let e = evt || window.event;
-                              let target = e.target || e.srcElement;
-                              let id = $(target).attr("data-id");
+                              var e = evt || window.event;
+                              var target = e.target || e.srcElement;
+                              var id = $(target).attr("data-id");
                               this.saveId(id);
                               this.changeCartsNum();
                         },this));
@@ -36,16 +46,16 @@ define(["jquery","./loaddata.js" , "./render.js" , "./magnifying.js"],function($
                   this.getHeightList();
 
                   this.chartTab.on("click","h4",$.proxy(function(evt){
-                        let e = evt || window.event;
-                        let target = e.target || e.srcElement;
+                        var e = evt || window.event;
+                        var target = e.target || e.srcElement;
                         $(target).parent().addClass("active")
                         .siblings().removeClass("active");
-                        let index = $(target).parent().index();
+                        var index = $(target).parent().index();
                         this.chartConChange(index);
                   },this))
 
                   $(window).on( "scroll" , $.proxy(function(){
-                        let scrolltop = $("body,html").scrollTop();
+                        var scrolltop = $("body,html").scrollTop();
                         if(scrolltop > this.minHei){
                               this.ul.addClass("fixed_ul");
                         }else{
@@ -55,11 +65,10 @@ define(["jquery","./loaddata.js" , "./render.js" , "./magnifying.js"],function($
                   },this))
 
                   this.ul.on("click" , "li" , $.proxy(function(evt){
-                        let e = evt || window.event;
-                        let target = e.target || e.srcElement;
-                        let index = $(target).index();
-                        this.changeStairs(index);
-                        let s_top = this.heightList[index].min;
+                        var e = evt || window.event;
+                        var target = e.target || e.srcElement;
+                        var index = $(target).index();
+                        var s_top = this.heightList[index].min;
                         $("body,html").animate({
                               "scrollTop":s_top
                         },500);
@@ -67,7 +76,7 @@ define(["jquery","./loaddata.js" , "./render.js" , "./magnifying.js"],function($
                   
             },
             getHeightList : function(){
-                  let topHei = $(".g_chart_con").offset().top ;
+                  var topHei = $(".g_chart_con").offset().top ;
                   $.each(this.stairsList , $.proxy(function(index,ele){             
                         let min = $(ele).offset().top + topHei;
                         let max = min + $(ele).outerHeight();
@@ -105,7 +114,7 @@ define(["jquery","./loaddata.js" , "./render.js" , "./magnifying.js"],function($
                   }
             },
             getIdDetail : function(list ,id){
-                  let data = "";
+                  var data = "";
                   $.each(list , function(index,item){
                         if(item.dataid == id ){
                               data = item;

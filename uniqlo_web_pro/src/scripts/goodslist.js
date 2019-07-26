@@ -15,8 +15,8 @@ define([
                   this.leftNav = $(".left_nav_list");
                   this.topTitle = $(".gl_top_title");
                   this.res = "";
-                  let url = "";
-                  let toptitle_con = "";
+                  var url = "";
+                  var toptitle_con = "";
 
                  switch(attr){
                         case "xsth" : toptitle_con += "限时特惠-"; break;
@@ -46,7 +46,7 @@ define([
                   this.topTitle.html(toptitle_con);
                   loaddata.init(url).then($.proxy(function(res){
                         this.res = res;
-                        let html = "";
+                        var html = "";
                         if(attr === "all"){
                               for(var a in this.res){
                                     html += render.init(this.res[a].datalist,"goods");
@@ -70,9 +70,9 @@ define([
                   },this));
 
                   this.leftNav.on("click" , ".left_fld_btn" , $.proxy(function(evt){
-                        let e = evt || window.event;
-                        let target = e.target || e.srcElement;
-                        let ul = $(target).next(".left_nav_sl");
+                        var e = evt || window.event;
+                        var target = e.target || e.srcElement;
+                        var ul = $(target).next(".left_nav_sl");
                         if(ul.css("display") === "none"){
                               $(target).html("&#xe652;");
                         }else{

@@ -7,13 +7,15 @@ define([
       changeCartsNum();
       verification();
 
-      let data = {};
-      let gotop_btn = $("#go_top");
-      let top_nav = $(".header_nav_con");
-      let little_logo = $(".logo");
-      let saleNav = $(".slae_nav");
-      let leftNavPart = $(".left_hg");
-      let exitBtn = $(".exit_account");
+      var data = {};
+      var gotop_btn = $("#go_top");
+      var top_nav = $(".header_nav_con");
+      var little_logo = $(".logo");
+      var saleNav = $(".slae_nav");
+      var leftNavPart = $(".left_hg");
+      var exitBtn = $(".exit_account");
+      var aboutUs = $(".hg_about");
+      var close_aboutus = $(".close_hover");
 
        function changeCartsNum(){
             var count = 0;
@@ -46,9 +48,9 @@ define([
             },500);
       })
       saleNav.on("click" , "a" , function(evt){
-            let e = evt || window.event ;
-            let type = $(e.target).attr("data");
-            let attr = $(e.target).parent().attr("data");
+            var e = evt || window.event ;
+            var type = $(e.target).attr("data");
+            var attr = $(e.target).parent().attr("data");
             data = {
                   type,
                   attr
@@ -56,18 +58,25 @@ define([
             location.href = "./html/goodslist.html?#"+ type+"-"+attr;
       })
       leftNavPart.on("click" , "a" , $.proxy(function(evt){
-            let e = evt || window.event ;
-            let type = $(e.target).attr("data");
-            let h = "";
+            var e = evt || window.event ;
+            var type = $(e.target).attr("data");
+            var h = "";
             /\//.test(type) ? h = "./goodslist.html?#" : h = "./html/goodslist.html?#";
             window.open(h + type.split("/")[0]+"-all");
       },this));
+
+      aboutUs.on("click" , function(){
+            $(".hover_page").css("display","block");
+      })
+      close_aboutus.on("click",function(){
+            $(".hover_page").css("display","none");
+      })
 
       function verification(){
             if($(".nologin").css("display")==="none"){
                   return true;
             }
-            let url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
+            var url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
             $.ajax(url).done(function(res){
                   res = JSON.parse(res);
                   if(res.state === "error"){
@@ -82,7 +91,7 @@ define([
       }
 
       exitBtn.on("click",function(){
-            let url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
+            var url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
             $.ajax(url,{
                   data : {
                         removecookie : "true"

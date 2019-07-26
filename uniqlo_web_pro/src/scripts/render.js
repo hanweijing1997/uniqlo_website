@@ -16,7 +16,7 @@ define(["jquery"],function($){
 			}
             },
             goodsListShow : function(list){
-                  let html = "";
+                  var html = "";
                   $.each(list , function(index,item){
                         html += `
                               <li class="gl_li">
@@ -39,7 +39,7 @@ define(["jquery"],function($){
                  return html;
             },
             detailListShow : function(list){
-                  let html = "";
+                  var html = "";
                         html += `  
                               <div class="gd_img">
                               <div class="gd_img_small">
@@ -92,7 +92,7 @@ define(["jquery"],function($){
                   return html;
             },
             getDetailImgList : function(list){
-                  let html = "";
+                  var html = "";
                   $.each(list , function(index,item){
                         if(index === 0){
                               html += `  
@@ -125,7 +125,7 @@ define(["jquery"],function($){
 				})
                   })
                   
-                  let html = "";
+                  var html = "";
                   $.each(list , function(index,item){
                         html += `
                               <li class="sc_con_item">
@@ -151,17 +151,17 @@ define(["jquery"],function($){
                                           <p>￥${item["origin-price"]}.00</p>
                                     </div>
                                     <div class="sc_con_count">
-                                          <span> <i class="iconfont" style="float:left;margin-left:-3px">&#xe723;</i> ${item.count}  <i class="iconfont" style="float:right;margin-right:-3px;">&#xe71e;</i></span>
+                                          <span data="${item.dataid}"> <i class="iconfont red_num_btn" style="float:left;margin-left:-3px">&#xe723;</i> ${item.count}  <i class="iconfont add_num_btn" style="float:right;margin-right:-3px;">&#xe71e;</i></span>
                                     </div>
                                     <div class="sc_con_price">
-                                          <p class="price_bold">￥${item.count * item["now-price"]}.00</p>
+                                          <p class="price_bold">￥<span>${item.count * item["now-price"]}</span>.00</p>
                                     </div>
                               </li>`;
                   })
                   return html;
             },
             getDetailSizeList : function(list){
-                  let html = "";
+                  var html = "";
                   $.each(list , function(index,item){
                         html += `
                         <li class="">${item}</li> `;
@@ -169,7 +169,7 @@ define(["jquery"],function($){
                   return html;
             },
             getDetailColorList : function(list){
-                  let html = "";
+                  var html = "";
                   $.each(list , function(index,item){
                         html += `
                         <li>

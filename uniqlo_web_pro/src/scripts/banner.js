@@ -15,9 +15,7 @@
       }
       $.extend(Banner.prototype , {
             init : function(){
-
-
-                  
+              
                   //根据效果进行布局
                   this.animateLayout();
                   this.option.pagination ? this.padinationLayout() : "";
@@ -78,7 +76,7 @@
                   for(var i = 0 , bullet; bullet = this.paginations.children()[i++]; ){
                         bullet.className = "pagination-bullet";
                   }
-                  let pagiList = this.paginations.children();
+                  var pagiList = this.paginations.children();
                   
                   var index = 0;	
                   setTimeout(function(){
