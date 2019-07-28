@@ -34,16 +34,34 @@ function useconnect(){
                         arr.push( proxy ( attr , proxyList[attr]))
                   }
                   return arr;
+
+                  // return [
+                  //       proxy("/login",{
+                  //             target : "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php",
+                  //             // target:"https://www.zcool.com",
+                  //             changeOrigin : true,
+                  //             pathRewrite: {
+                  //                   "^/login":""
+                  //             }
+                  //       }),
+                  //       proxy("/register",{
+                  //             target : "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/register.php",
+                  //             changeOrigin : true,
+                  //             pathRewrite: {
+                  //                   "^/register":""
+                  //             }
+                  //       })
+                  // ]
             }
       });
 }
 
-function watch(){
-      gulp.watch(paths.styles.src,devStyles)
-      gulp.watch(paths.scripts.src,devScripts)
-      gulp.watch(paths.html.src,devHtml)
-}
+// function watch(){
+//       gulp.watch(paths.styles.src,devStyles)
+//       gulp.watch(paths.scripts.src,devScripts)
+//       gulp.watch(paths.html.src,devHtml)
+// }
 
-let dev = gulp.series(gulp.parallel( useconnect , watch ));
+let dev = gulp.series(gulp.parallel( useconnect  ));
 
 module.exports  = dev; 

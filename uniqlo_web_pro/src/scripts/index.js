@@ -76,7 +76,7 @@ define([
             if($(".nologin").css("display")==="none"){
                   return true;
             }
-            var url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
+            var url = "./php/login.php";
             $.ajax(url).done(function(res){
                   res = JSON.parse(res);
                   if(res.state === "error"){
@@ -91,7 +91,7 @@ define([
       }
 
       exitBtn.on("click",function(){
-            var url = "http://localhost/hwj/hwj_pro/uniqlo_web_pro/src/php/login.php";
+            var url = "./php/login.php";
             $.ajax(url,{
                   data : {
                         removecookie : "true"
