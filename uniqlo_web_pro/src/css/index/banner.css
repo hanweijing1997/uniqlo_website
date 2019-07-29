@@ -78,7 +78,7 @@
 	position: absolute;
 }
 .button-next-t{
-	background: url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png);
+	/* background: url(https://img.alicdn.com/imgextra/i1/196993935/TB2Vxnfbo.iyKJjSspdXXbB_pXa-196993935.png); */
 	background-size: 30%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -86,7 +86,7 @@
 	right: -50px;
 }
 .button-prev-t {
-	background: url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png);
+	/* background: url(https://img.alicdn.com/imgextra/i4/196993935/TB2x9r2cnAlyKJjSZPiXXXL2VXa-196993935.png); */
 	background-size: 30%;
 	background-position: center;
 	background-repeat: no-repeat;
